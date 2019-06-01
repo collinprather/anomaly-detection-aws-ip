@@ -4,7 +4,7 @@ In this repo, we will be building an [AWS Inference Pipeline](https://docs.aws.a
 
 The dataset that we will be using comes from [Kaggle's Numenta Anomaly Benchmark (NAB)](https://www.kaggle.com/boltzmannbrain/nab/home). Specifically, we'll be working with the `realKnownCause/machine_temperature_system_failure.csv` dataset. In the graph below, you'll see our temperature data, along with the anomaly scores predicted by our Random Cut Forest model.
 
-![rcf-anomaly](Figures/anomaly_graph.png)
+![rcf-anomaly](anomaly_graph.png)
 
 
 # Getting up and running locally
@@ -16,13 +16,13 @@ The dataset that we will be using comes from [Kaggle's Numenta Anomaly Benchmark
 3. In JupyterLab, click on `Upload Files`, and upload `1.0-cjp-RCF-anomaly.ipynb` and `sklearn_preprocessor.py`, which were downloaded in step 1.
 
 <p align="center"> 
-<img src="Figures/upload.png">
+<img src="upload.png">
 </p>
 
 4. Open up `1.0-cjp-RCF-anomaly.ipynb` and in the top right-hand corner, ensure that your notebook kernel is `conda_python3`. If not, click on your kernel and scroll down to choose `conda_python3`.
 
 <p align="center"> 
-<img src="Figures/kernel.png">
+<img src="kernel.png">
 </p>
 
 5. You're on your way! When inside of a cell, use `shift + enter` to execute code.
