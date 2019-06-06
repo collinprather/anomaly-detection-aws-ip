@@ -9,7 +9,7 @@ The dataset that we will be using comes from [Kaggle's Numenta Anomaly Benchmark
 
 # Getting up and running locally
 
-1. Clone or download the `datascience-anomaly-detection` repo at `https://github.com/spindance/datascience-anomaly-detection.git` on Github.
+1. Clone or download the `anomaly-detection-aws-ip` repo at `https://github.com/collinprather/anomaly-detection-aws-ip.git` on Github.
 
 2. Create an AWS Sagemaker notebook instance. Once it is initiated, click `Open JupyterLab`.
 
